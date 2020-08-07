@@ -366,6 +366,18 @@ http://www.templatemo.com/tm-509-hydro
     display: block;
   }
 
+  #trrlogo{
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    mix-blend-mode: multiply;
+  }
 
 
   /*---------------------------------------
