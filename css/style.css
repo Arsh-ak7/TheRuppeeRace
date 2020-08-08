@@ -484,6 +484,12 @@ margin:0 16px 10px 0;
     display: inline-block;
     margin-left: 10px;
   }
+  a.callno:link{
+    color: #d9d9d9;
+  }
+  a.callno:hover{
+    color: #ce3232;
+  }
 
 
   /*---------------------------------------
