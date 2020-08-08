@@ -1,10 +1,3 @@
-/*
-
-Hydro Template 
-
-http://www.templatemo.com/tm-509-hydro
-
-*/  
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
@@ -123,16 +116,16 @@ http://www.templatemo.com/tm-509-hydro
   .section-btn:hover,
   .section-btn:focus {
     background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right,#696969,#fbff04);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #696969,#fbff04); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-color: transparent;
     color: #393939;
   }
 
   .overlay {
-    background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00F260;
+    background: -webkit-linear-gradient(to right, #696969,#fbff04);  
+    background: linear-gradient(to right, #696969,#fbff04);
     opacity: 0.7;
     position: absolute;
     width: 100%;
@@ -365,20 +358,29 @@ http://www.templatemo.com/tm-509-hydro
   .home-info span small {
     display: block;
   }
-
+  
   #trrlogo{
     background-size: cover;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    position: relative;
+    position: right;
     overflow: hidden;
     height: auto;
     width: auto;
     mix-blend-mode: multiply;
-  }
+    justify-content: center;
+}
 
+.platform-container{
+  justify-content: center;
+}
+
+.spotify-btn {
+margin-right: 16px;
+float: left;
+}
 
   /*---------------------------------------
       ABOUT              
