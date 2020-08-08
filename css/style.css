@@ -379,7 +379,6 @@
 
 .spotify-btn {
 margin-right: 16px;
-float: left;
 }
 
   /*---------------------------------------
@@ -610,7 +609,7 @@ float: left;
     .custom-navbar .section-btn {
       margin-left: 1em;
     }
-
+  }
     
   @media screen and (max-width: 767px) {
 
